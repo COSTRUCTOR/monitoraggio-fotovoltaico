@@ -17,6 +17,7 @@ L'applicazione permette il monitoraggio della produzione energetica di diversi p
 - **Linguaggio**: TypeScript.
 
 📂 Struttura del progetto
+
 Il progetto adotta una struttura Flat-App Router. La directory /app è situata nella root del progetto per massimizzare la velocità di sviluppo e l'accessibilità dei componenti, seguendo le best-practices documentate dal team di Vercel per Next.js 14.
 
 ## ⚙️ Configurazione Database
