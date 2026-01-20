@@ -16,12 +16,8 @@ L'applicazione permette il monitoraggio della produzione energetica di diversi p
 - **Database**: MySQL (gestito tramite `mysql2/promise`).
 - **Linguaggio**: TypeScript.
 
-## 📂 Struttura del Progetto (No SRC)
-Il progetto segue una struttura moderna "flat" per Next.js:
-- `/app`: Contiene le pagine, le API route e i componenti principali.
-- `/app/api/produzione`: Endpoint per le operazioni sul database.
-- `db.ts`: Configurazione del pool di connessioni MySQL.
-- `.env.local`: Variabili d'ambiente per la sicurezza delle credenziali.
+📂 Struttura del progetto
+Il progetto adotta una struttura Flat-App Router. La directory /app è situata nella root del progetto per massimizzare la velocità di sviluppo e l'accessibilità dei componenti, seguendo le best-practices documentate dal team di Vercel per Next.js 14.
 
 ## ⚙️ Configurazione Database
 Per far girare il progetto, è necessario importare le seguenti tabelle nel database MySQL:
